@@ -1,0 +1,353 @@
+
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+body{
+
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 18px;
+}
+
+	/*.......top-header-section...... */
+
+
+#top-header-section{
+
+	padding: 15px 0;
+}
+
+.logo img{
+
+	width: 80px;
+}
+.fa{
+
+	 font-size: 20px;
+	 color: #3CC3B5;
+}
+
+.input-group-addon, .form-control{
+
+	border-radius: 0;
+}
+
+.price img{
+
+	float: right;
+	width: 70px;
+}
+
+	/*.......top-header-section...... */
+
+
+	/*..... navbar-section..... */
+
+.navbar-default {
+    background-color: #4CCFC1;
+    border-radius: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 18px;
+    transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+
+	color: seagreen;
+}
+
+
+.navbar-nav > li > a{
+
+	position: relative;
+	padding: 14px 25px;
+}
+
+
+ .navbar-nav > li > a:after{
+
+	position: absolute;
+    content: "";
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+    width: 2px;
+    height: 20px;
+    background: #fff;
+}
+
+.navbar-nav li:last-child a:after{
+	
+	background: transparent;
+}
+
+.navbar {
+     margin-bottom: 0; 
+     border: 0px solid transparent; 
+}
+			
+	/*..... navbar-section..... */
+
+
+	/* carousel-section */
+
+#carousel-section{
+	background: #3CC3B5;
+}
+
+.item{
+
+	position: relative;
+}
+
+.item img{
+
+	padding: 10% 0;
+}
+
+
+.carousel-caption{
+
+	text-align: left;
+    left: 51%;
+    top: 27%;
+}
+
+.carousel-caption h1{
+
+	text-transform: capitalize;
+	letter-spacing:1px;
+	font-size: 50px;
+}
+
+.carousel-caption p{
+	font-size: 16px;
+}
+
+
+.btn-custom{
+
+	background:transparent;
+	padding: 6px 20px;
+	color: #fff;
+	font-size: 17px;
+	border-radius: 6px;
+	text-transform: uppercase;
+	border:2px solid #fff;
+	padding-top: 10px;
+	transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+}
+
+.btn-custom:hover{
+
+	color: #EBE5EC;
+	background: #BF3743;
+}
+
+
+	/* carousel-section */
+
+
+
+	/* brand-section */
+
+#brand-section{
+
+	padding: 60px 0;
+}
+
+.media-body .btn-custom:hover{
+
+	background: #B0B0B0;
+	color: #C6020C;
+}	
+
+.media-body{
+
+	padding-top: 30px;
+	max-width: 164px;
+}
+
+.brand-body{
+
+	padding-left:55px;
+}
+
+.media-body h3{
+
+	text-transform: uppercase;
+	font-size: 27px;
+	color: #B0B0B0;
+}
+
+.media-body .btn-custom{
+
+	background:seagreen;
+	font-size: 14px;
+	padding: 5px 17px;
+}
+
+.media:after{
+
+	position: absolute;
+	content: "";
+	top: 0;
+	right: 0;
+	background: #ddd;
+	width: 2px;
+	height: 100%;
+}
+
+.col-sm-4:last-child .media:after{
+
+	background: transparent;
+}
+
+
+	/* brand-section */
+
+
+	/* featured-section */
+
+#featured-section{
+
+	background:#3CC3B5;
+}
+
+.featured h1{
+
+	text-transform: uppercase;
+	font-size: 31px;
+	color: #fff;
+}
+
+	/* featured-section*/
+
+
+	/* featured-product-section*/
+
+
+#product-section{
+
+	padding: 60px 0;
+}
+
+.product{
+
+	border:1px solid #eee;
+	padding: 20px 0 30px 0;
+	border-bottom: 3px solid #3CC395;
+	margin-bottom:30px;
+}
+
+.product h2{
+
+	font-size: 27px;
+	color: #B0B0B0;
+	text-transform: uppercase;
+
+}
+
+.product .btn-custom{
+
+	font-size: 14px;
+	padding: 5px 15px;
+	background:seagreen;
+	transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+}
+
+.product .btn-custom:hover{
+
+	background: #B0B0B0;
+	color: #C6020C;
+}
+
+.dolar{
+
+	font-size: 20px;
+	color: #B0B0B0;
+	padding: 8px;
+}
+
+.product img{
+
+	margin:0 auto;
+}
+
+
+	/*.... featured-product-section.... */
+
+
+	/*..... footer-section.... */
+
+#footer-section{
+
+	background: #3CC3B5;
+	padding: 60px 0;
+}
+
+#footer-section .col-sm-3 h2{
+
+	text-transform: uppercase;
+	font-size: 27px;
+	color: #fff;
+}
+
+.footer-content{}
+
+.list-unstyled li a{
+
+	text-transform: capitalize;
+	font-size: 15px;
+	color: #fff;
+	letter-spacing: 0.8px;
+	text-decoration: none;
+	transition-duration: 0.4s;
+	-webkit-transition-duration: 0.4s;
+	-moz-transition-duration: 0.4s;
+}
+
+.list-unstyled li a:hover{
+
+	color: seagreen;
+}
+
+
+	/*.... footer-section..... */
+
+	/*.... copyright-section..... */
+
+#copyright-section{
+
+	background: #2EA89B;
+}
+
+
+.copy-right{}
+
+.copy-right p{
+
+	margin-bottom: 0;
+	color: #fff;
+	font-size: 15px;
+	padding: 13px 0;
+	text-align: center;
+	letter-spacing: 0.7px;
+	text-transform: capitalize;
+}
+
+	/*.... copyright-section..... */
+
+
+
+
+
